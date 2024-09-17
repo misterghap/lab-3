@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog Layout</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Layout Styles */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 30px auto;
+            gap: 20px;
+        }
+        .main-content {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h2 {
+            color: #333;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Modern Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content and Sidebar -->
+    <div class="container">
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <h2>Welcome to My Blog</h2>
+            <p>This is the main content area where blog posts will be displayed. You can add articles, tutorials, news, and more here. The layout is clean and modern, with plenty of space for text and media.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque varius velit, nec mollis libero dignissim ac. Suspendisse potenti.</p>
+        </div>
+
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <h2>About Me</h2>
+            <p>Hello! I'm NKG a blogger who writes about technology, lifestyle, and more. Follow me for updates!</p>
+            <h2>Popular Links</h2>
+            <ul>
+                <li><a href="#">Latest Posts</a></li>
+                <li><a href="#">Top Tutorials</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Modern Blog. All Rights Reserved.</p>
+        <p>Contact: NKGblog@modernblog.com</p>
+    </footer>
+
+</body>
+</html>
