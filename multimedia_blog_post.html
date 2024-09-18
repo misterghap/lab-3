@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multimedia Blog Post</title>
+    <title>Wag World</title>
     <style>
         /* Basic styling for the blog post */
         body {
@@ -12,7 +12,15 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
+        .videos{
+            display:flex;
+            gap: 30px;
+            justify-content: space-between;
+        }
         h1 {
+            text-align: center;
+        }
+        h3 {
             text-align: center;
         }
         .blog-post {
@@ -24,7 +32,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         iframe, img, audio, video {
-            display: block;
+            display: inline-block;
             margin: 20px 0;
             max-width: 100%;
         }
@@ -41,38 +49,51 @@
 </head>
 <body>
 
-    <h1>Multimedia Blog Post</h1>
+    <h1>Wag World</h1>
 
     <div class="blog-post">
-        <h2>Welcome to My Multimedia Blog</h2>
-        <p>This blog post includes various forms of multimedia content such as embedded videos, images, audio, and more. Let’s explore them!</p>
+        <h2>Welcome to Wag World</h2>
+        <p>Lets 🐾 Dive into a world where dogs rule and tails never stop wagging. Here, you’ll find everything from handy tips and how-to guides to the latest doggy news and heartwarming pup stories. Whether you're looking for cool training tricks, fun activities, or just some feel-good dog content, we've got you covered. Let’s explore, learn, and celebrate our furry friends together! 🐶✨</p>
 
         <!-- Embedded Video using iframe (YouTube) -->
-        <h3>Embedded Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <!-- Image with caption -->
-        <h3>Image with Caption</h3>
-        <figure>
-            <img src="https://via.placeholder.com/800x400" alt="Beautiful landscape">
-            <figcaption>A beautiful landscape captured during my travels.</figcaption>
-        </figure>
-
-        <!-- Audio element with controls (Podcast or Audio Clip) -->
-        <h3>Podcast Audio Clip</h3>
-        <audio controls>
-            <source src="your-audio-file.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-
-        <!-- Video element with controls (Video Blog Entry) -->
-        <h3>Video Blog Entry</h3>
-        <video controls>
-            <source src="your-video-file.mp4" type="video/mp4">
-            Your browser does not support the video element.
-        </video>
+        <h3>A day in the life</h3> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fIiqc-ijRdo?si=j-cwhzaG0ji581gY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+        <!-- Media with caption -->
+       <div class="videos">
+        <div>
+            <h3>Chilling with my boo</h3>
+            <figure>
+                <video controls width= "200px"src="./chilling with my boo.mov" alt="Beautiful landscape">
+                <figcaption>winding down after a long exploring.</figcaption>
+            </figure>
+           </div>
+        
+            <!--Media with caption -->
+           <div>
+            <h3>whats out in the city</h3>
+            <figure>
+                <video controls width= "200px" src="./going to check out the city .MP4" alt="Beautiful landscape">
+                <figcaption>views from the 6ix.</figcaption>
+            </figure>
+           </div> 
+            <!-- Video element with controls (Video Blog Entry) -->
+           <div>
+            <h3>out and about</h3>
+            <figure>
+                <video controls width="200px">
+                    <source src="./out n about .MP4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </figure>
+           </div>
+       </div>
+         <!-- Image with caption -->
+         <h3>pose for the kodak</h3>
+         <figure>
+             <img src="./always ready for the kodak.JPG" alt="Beautiful landscape">
+             <figcaption>can you tell we love the camera?.</figcaption>
+         </figure>
 
     </div>
 

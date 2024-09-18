@@ -7,37 +7,61 @@
         /* Basic styles for the table */
         table {
             width: 100%;
+            border: none;
             border-collapse: collapse;
         }
         th, td {
+           color: rgb(29, 208, 224);
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
         body {
-            background-color: hsla(193, 7%, 24%, 0.751);
+            background-color: rgb(92, 57, 10);
+        
         }
         th {
-            background-color: #f2f2f2;
-            color: black;
+            background-color: tan;
+            color:aliceblue;
+
         }
         tr:nth-child(even) {
-            background-color: #f9f9f9;
+            background-color: tan;
+
+        }
+        tr:nth-child(even):hover {
+            background-color:black;
+            
+        }
+        tr:nth-child(odd):hover {
+            background-color:black;
+            
         }
         tr:hover {  
-            background-color: #ddd;
+            background-color: black;
+        
         }
         caption {
             font-size: 1.5em;
             margin-bottom: 10px;
         }
+        h1 {
+            color: rgb(29, 208, 224);
+            text-align: center;
+        }
+        caption{
+            color: rgb(29, 208, 224);
+        }
+        *{
+            color: rgb(29, 208, 224);
+        }
     </style>
 </head>
 <body>
-    <h1>Blog Table of Contents</h1>
+    <h1>Woof Worthy Menu</h1>
     
     <table>
-        <caption>Latest Blog Posts</caption>
+        <caption>Bark Buzzz</caption>
         <thead>
             <tr>
                 <th>Title</th>
@@ -47,19 +71,19 @@
         </thead>
         <tbody>
             <tr>
-              <td><a href="multimedia_blog_post.html">Understanding HTML Basics</a></td>
+              <td><a href="multimedia_blog_post.html">Wag World </a></td>
               <td>August 30, 2024</td>
-              <td>A beginner's guide to HTML and its basic structure.</td>
+              <td>discover the latest in pet care and products as well as </td>
             </tr>
             <tr>
-              <td><a href="./blog_post_form.html">CSS Styling for Beginners</a></td>
+              <td><a href="./blog_post_form.html">Bark Buddies</a></td>
               <td>September 5, 2024</td>
-              <td>An introduction to CSS styling techniques.</td>
+              <td>a fun-filled meetup for dogs and their owners to socialize, play, and bond!.</td>
             </tr>
             <tr>
-              <td><a href="./blog_layout.html">Web programming for learners</a></td>
+              <td><a href="./blog_layout.html">Pawsitive vibes</a></td>
               <td>September 5, 2024</td>
-              <td>A step by step tutorial for web programming.</td>
+              <td>enjoy a pawsitive atmosphere of wagging tails and happy barks.</td>
             </tr>
         </tbody>
     </table>
